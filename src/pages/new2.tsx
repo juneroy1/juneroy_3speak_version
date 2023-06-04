@@ -141,7 +141,7 @@ const New2 = () => {
         {/* {videos.length} */}
         {videos.map((video, index) => (
           <GridItem w="100%" h="100%" key={index}>
-            <Image backgroundColor={'#222 !important'} alt="test" src={`${video.thumbnail}`} />
+            <Image padding={'5px'} backgroundColor={'#222 !important'} alt="test" src={`${video.thumbnail}`} />
             <Text fontSize={'13px'} fontWeight={"bold"} marginY={"10px"} as="h5">
               {video.title}
             </Text>
