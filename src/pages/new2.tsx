@@ -142,7 +142,7 @@ const New2 = () => {
         {videos.map((video, index) => (
           <GridItem w="100%" h="100%" key={index}>
             <Image alt="test" src={`${video.thumbnail}`} />
-            <Text fontWeight={"bold"} marginY={"10px"} as="h5">
+            <Text fontSize={'13px'} fontWeight={"bold"} marginY={"10px"} as="h5">
               {video.title}
             </Text>
             <Text fontWeight={"bold"} marginTop={"10px"} as="span">
