@@ -45,11 +45,7 @@ const NAVIGATION = [
     title: "nav.new",
     route: "/new",
   },
-  {
-    img: "nav/download.svg",
-    title: "nav.desktop",
-    route: "https://github.com/3speaknetwork/3Speak-app/releases/tag/v0.1.20",
-  },
+ 
   {
     img: "nav/communities.svg",
     title: "nav.communities",
