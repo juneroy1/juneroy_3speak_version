@@ -56,6 +56,14 @@ const NAVIGATION = [
     title: "nav.leaderboard",
     route: "/leaderboard",
   },
+  {
+    img: "nav/download.svg",
+    title: "download_apps",
+  },
+  {
+    img: "nav/spk_network.png",
+    title: "about_3speak",
+  },
 ];
 
 export const Sidebar = () => {
